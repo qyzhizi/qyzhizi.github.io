@@ -13,16 +13,7 @@
       <pubDate>Thu, 07 Jul 2022 02:42:12 +0800</pubDate>
       
       <guid>https://qyzhizi.github.io/post/blog/</guid>
-      <description>log 系统
-https://blog.csdn.net/weixin_47154909/article/details/106203639
-logging库采用模块化方法，并提供了几类组件：记录器，处理程序，过滤器和格式化程序。
-记录器（Logger）：提供应用程序代码直接使用的接口。
-处理器（Handler）：将日志记录（由记录器创建）发送到适当的目的地。
-筛选器（Filter）：提供了更细粒度的功能，用于确定要输出的日志记录。
-格式器（Formatter）：程序在最终输出日志记录的内容格式。
-Logger 设置的级别与当前LOG.xxx (例如：LOG.debug)调用的级别进行判断，是否允许调用当前的call
-def debug(self, msg, *args, **kwargs): &amp;#34;&amp;#34;&amp;#34; Log &amp;#39;msg % args&amp;#39; with severity &amp;#39;DEBUG&amp;#39;. To pass exception information, use the keyword argument exc_info with a true value, e.g. logger.debug(&amp;#34;Houston, we have a %s&amp;#34;, &amp;#34;thorny problem&amp;#34;, exc_info=1) &amp;#34;&amp;#34;&amp;#34; if self.isEnabledFor(DEBUG): self._log(DEBUG, msg, args, **kwargs) self.isEnabledFor的核心逻辑：返回第一个遇到的level，然后与当前LOG.xxx (例如：LOG.debug)调用的级别进行比较，大于当前级别则返回True。
-def getEffectiveLevel(self): &amp;#34;&amp;#34;&amp;#34; Get the effective level for this logger. Loop through this logger and its parents in the logger hierarchy, looking for a non-zero logging level.</description>
+      <description>test some content</description>
     </item>
     
     <item>
