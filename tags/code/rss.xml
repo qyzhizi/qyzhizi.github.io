@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>code on log</title><link>/tags/code/</link><description>Recent content in code on log</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 05 Jun 2023 16:30:22 +0800</lastBuildDate><atom:link href="/tags/code/rss.xml" rel="self" type="application/rss+xml"/><item><title>Handwriting Dl Framework</title><link>/handwriting-dl-framework.html</link><pubDate>Mon, 05 Jun 2023 16:30:22 +0800</pubDate><guid>/handwriting-dl-framework.html</guid><description>&lt;h2 id="主要程序">主要程序&lt;/h2>
+&lt;p>
+&lt;a href="https://github.com/qyzhizi/handwriting_deep_learning_framework/blob/main/general_neural_network_framework.py" title="general_neural_network_framework.py" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+general_neural_network_framework.py
+&lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/qyzhizi/handwriting_deep_learning_framework" title="github 仓库" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+github 仓库
+&lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>&lt;/p></description></item></channel></rss>
