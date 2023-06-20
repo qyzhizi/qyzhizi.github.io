@@ -100,8 +100,7 @@ $$H_{out} = (H_{in} - 1) \times \text{stride}[0] - 2 \times \text{padding}[0] + 
 采用pytorch 的做法，第一步先将输入\(i&rsquo;\) （转置卷积的输入，另外\(i\)表示的是原卷积的输入）进行变换，假设原卷积的参数是：kernel = 2, strides = 1，padding=0。
 strides =1, 输入\(i&rsquo;\) 元素之间不需要插入0
 padding=0, 实际的padding = (k-1)-p = (2-1)-0 = 1
-那么变换后的 \(\tilde{i&rsquo;}\) （转置卷积的输出）：</p><p><img src=/imgs/img-lazy-loading.gif data-src=https://qyzhizi.cn/img/202306201141726.png alt>
-然后进行第二步：对变换后的 \(\tilde{i&rsquo;}\) 进行普通的卷积：k=2, s=1, p=0
+那么变换后的 \(\tilde{i&rsquo;}\) （转置卷积的输出）：</p><p><img src=/imgs/img-lazy-loading.gif data-src=https://qyzhizi.cn/img/202306201141726.png alt></p><p>然后进行第二步：对变换后的 \(\tilde{i&rsquo;}\) 进行普通的卷积：k=2, s=1, p=0
 k =<code>[[0,1],[2,3]]</code>
 看起来不复杂，可以直接手算，得到卷积的结果：\(o_1\) = <code>[[0,3,2],[6,14, 6],[2,3,0]]</code>，这与图13.10.1的输出完全不同。
 但是你如果用pytorch的转置卷积api 算一下，又会发现结果与13.10.1的输出完全一致。例如：</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-python data-lang=python><span style=display:flex><span>X <span style=color:#f92672>=</span> torch<span style=color:#f92672>.</span>tensor([[<span style=color:#ae81ff>0.0</span>, <span style=color:#ae81ff>1.0</span>], [<span style=color:#ae81ff>2.0</span>, <span style=color:#ae81ff>3.0</span>]])
