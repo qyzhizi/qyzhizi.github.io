@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>卷积 on log</title><link>/tags/%E5%8D%B7%E7%A7%AF/</link><description>Recent content in 卷积 on log</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 20 Jun 2023 08:09:46 +0800</lastBuildDate><atom:link href="/tags/%E5%8D%B7%E7%A7%AF/rss.xml" rel="self" type="application/rss+xml"/><item><title>转置卷积与卷积的理解</title><link>/post/trans-conv-and-conv.html</link><pubDate>Tue, 20 Jun 2023 08:09:46 +0800</pubDate><guid>/post/trans-conv-and-conv.html</guid><description>&lt;p>转置卷积与卷积的理解，本文将介绍：&lt;/p>
+&lt;ul>
+&lt;li>转置卷积含义与矩阵形式&lt;/li>
+&lt;li>转置卷积的一种简单理解&lt;/li>
+&lt;li>pytorch 转置卷积参数的理解及其Shape的公式推导&lt;/li>
+&lt;li>卷积与数学上的卷积，卷积核旋转180度&lt;/li>
+&lt;/ul>
+&lt;p>阅读前提：&lt;/p>
+&lt;ul>
+&lt;li>理解深度学习中普通卷积的概念与shape的计算公式&lt;/li>
+&lt;li>了解深度学习框架pytorch卷积api的调用&lt;/li>
+&lt;li>了解卷积的矩阵运算形式&lt;/li>
+&lt;/ul></description></item></channel></rss>

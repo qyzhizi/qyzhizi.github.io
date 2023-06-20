@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>programming on log</title><link>/categories/programming/</link><description>Recent content in programming on log</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 01 Jun 2023 22:32:52 +0800</lastBuildDate><atom:link href="/categories/programming/rss.xml" rel="self" type="application/rss+xml"/><item><title>vscode远程调试docker中的python服务</title><link>/post/vscode-remote-debugging-python-service.html</link><pubDate>Thu, 01 Jun 2023 22:32:52 +0800</pubDate><guid>/post/vscode-remote-debugging-python-service.html</guid><description>&lt;p>vscode远程调试docker中的python服务&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>programming on log</title><link>/categories/programming/</link><description>Recent content in programming on log</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 20 Jun 2023 08:09:46 +0800</lastBuildDate><atom:link href="/categories/programming/rss.xml" rel="self" type="application/rss+xml"/><item><title>转置卷积与卷积的理解</title><link>/post/trans-conv-and-conv.html</link><pubDate>Tue, 20 Jun 2023 08:09:46 +0800</pubDate><guid>/post/trans-conv-and-conv.html</guid><description>&lt;p>转置卷积与卷积的理解，本文将介绍：&lt;/p>
+&lt;ul>
+&lt;li>转置卷积含义与矩阵形式&lt;/li>
+&lt;li>转置卷积的一种简单理解&lt;/li>
+&lt;li>pytorch 转置卷积参数的理解及其Shape的公式推导&lt;/li>
+&lt;li>卷积与数学上的卷积，卷积核旋转180度&lt;/li>
+&lt;/ul>
+&lt;p>阅读前提：&lt;/p>
+&lt;ul>
+&lt;li>理解深度学习中普通卷积的概念与shape的计算公式&lt;/li>
+&lt;li>了解深度学习框架pytorch卷积api的调用&lt;/li>
+&lt;li>了解卷积的矩阵运算形式&lt;/li>
+&lt;/ul></description></item><item><title>vscode远程调试docker中的python服务</title><link>/post/vscode-remote-debugging-python-service.html</link><pubDate>Thu, 01 Jun 2023 22:32:52 +0800</pubDate><guid>/post/vscode-remote-debugging-python-service.html</guid><description>&lt;p>vscode远程调试docker中的python服务&lt;/p>
 &lt;p>环境：windows Docker Desktop , Vscode&lt;/p>
 &lt;p>&lt;strong>阅读前，默认你对以下内容有基本了解：docker-compose.yml, Dockerfile, Vscode python 调试配置, flask 服务&lt;/strong>&lt;/p>
 &lt;p>原本想使用python pdb来调试，但是在容器环境中使用pdb，需要直接在容器终端中启动python程序，不方便
