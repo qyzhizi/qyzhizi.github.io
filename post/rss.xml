@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on log</title><link>/post/</link><description>Recent content in Posts on log</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 23 Jun 2023 09:29:59 +0800</lastBuildDate><atom:link href="/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>Pytorch卷积实现边缘检测</title><link>/pytorch-Edge-detection-using-convolution.html</link><pubDate>Fri, 23 Jun 2023 09:29:59 +0800</pubDate><guid>/pytorch-Edge-detection-using-convolution.html</guid><description>&lt;!-- &lt;img src="https://qyzhizi.cn/img/202306230824204.png" alt="图片" width="600" /> -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on log</title><link>/post/</link><description>Recent content in Posts on log</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 23 Jun 2023 20:53:31 +0800</lastBuildDate><atom:link href="/post/rss.xml" rel="self" type="application/rss+xml"/><item><title>PyTorch DataLoader的工作机制</title><link>/pytorch-dataloader.html</link><pubDate>Fri, 23 Jun 2023 20:53:31 +0800</pubDate><guid>/pytorch-dataloader.html</guid><description>&lt;!-- vscode-markdown-toc -->
+&lt;p>PyTorch-DataLoader的工作机制&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="#datasetsampler-%e4%b8%8e-dataloader%e7%9a%84%e5%85%b3%e7%b3%bb" title="dataset、sampler 与 dataloader的关系？" >
+dataset、sampler 与 dataloader的关系？
+&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="#dataloaderpy-%e4%b8%bb%e8%bf%9b%e7%a8%8b%e4%b8%8e%e5%b7%a5%e4%bd%9c%e8%bf%9b%e7%a8%8b%e7%9a%84%e5%85%b3%e7%b3%bb" title="dataloader.py 主进程与工作进程的关系？" >
+dataloader.py 主进程与工作进程的关系？
+&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="#%e6%95%b0%e6%8d%ae%e6%97%b6%e5%a6%82%e4%bd%95%e4%bb%8e%e8%bf%ad%e4%bb%a3%e5%99%a8dataloaderiter%e8%bf%94%e5%9b%9e%e7%9a%84" title="数据时如何从迭代器DataLoaderIter返回的？" >
+数据时如何从迭代器DataLoaderIter返回的？
+&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="#dataloaderpy%e4%b8%ad%e4%b8%bb%e8%bf%9b%e7%a8%8b%e5%92%8c%e5%b7%a5%e4%bd%9c%e8%bf%9b%e7%a8%8b%e6%98%af%e4%bd%95%e6%97%b6%e5%88%87%e6%8d%a2%e7%9a%84%e4%bc%9a%e5%8f%91%e7%94%9f%e6%ad%bb%e9%94%81%e5%90%97" title="dataloader.py中主进程和工作进程是何时切换的？会发生死锁吗？" >
+dataloader.py中主进程和工作进程是何时切换的？会发生死锁吗？
+&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Pytorch卷积实现边缘检测</title><link>/pytorch-Edge-detection-using-convolution.html</link><pubDate>Fri, 23 Jun 2023 09:29:59 +0800</pubDate><guid>/pytorch-Edge-detection-using-convolution.html</guid><description>&lt;!-- &lt;img src="https://qyzhizi.cn/img/202306230824204.png" alt="图片" width="600" /> -->
 &lt;div style="text-align: center;">
 &lt;img src="https://qyzhizi.cn/img/202306230824204.png" alt="图片" width="600">
 &lt;/div></description></item><item><title>Pytorch Api 实现直方图均衡化</title><link>/pytorch-api-implementing-histogram-equalization.html</link><pubDate>Fri, 23 Jun 2023 09:20:33 +0800</pubDate><guid>/pytorch-api-implementing-histogram-equalization.html</guid><description>&lt;p>pytorch-api-实现直方图均衡化&lt;/p>
