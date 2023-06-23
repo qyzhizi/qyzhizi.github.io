@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>log</title><link>/</link><description>Recent content on log</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 20 Jun 2023 08:09:46 +0800</lastBuildDate><atom:link href="/rss.xml" rel="self" type="application/rss+xml"/><item><title>转置卷积与卷积的理解</title><link>/post/trans-conv-and-conv.html</link><pubDate>Tue, 20 Jun 2023 08:09:46 +0800</pubDate><guid>/post/trans-conv-and-conv.html</guid><description>&lt;p>转置卷积与卷积的理解，本文将介绍：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>log</title><link>/</link><description>Recent content on log</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 23 Jun 2023 09:29:59 +0800</lastBuildDate><atom:link href="/rss.xml" rel="self" type="application/rss+xml"/><item><title>Pytorch卷积实现边缘检测</title><link>/pytorch-Edge-detection-using-convolution.html</link><pubDate>Fri, 23 Jun 2023 09:29:59 +0800</pubDate><guid>/pytorch-Edge-detection-using-convolution.html</guid><description>&lt;!-- &lt;img src="https://qyzhizi.cn/img/202306230824204.png" alt="图片" width="600" /> -->
+&lt;div style="text-align: center;">
+&lt;img src="https://qyzhizi.cn/img/202306230824204.png" alt="图片" width="600">
+&lt;/div></description></item><item><title>Pytorch Api 实现直方图均衡化</title><link>/pytorch-api-implementing-histogram-equalization.html</link><pubDate>Fri, 23 Jun 2023 09:20:33 +0800</pubDate><guid>/pytorch-api-implementing-histogram-equalization.html</guid><description>&lt;p>pytorch-api-实现直方图均衡化&lt;/p>
+&lt;!-- ![](https://qyzhizi.cn/img/202306230744649.png)
+![](https://qyzhizi.cn/img/202306230744649.png) -->
+&lt;div>
+&lt;img src="https://qyzhizi.cn/img/202306230744649.png" style="display: inline-block; width: 49%;">
+&lt;img src="https://qyzhizi.cn/img/202306230745540.png" style="display: inline-block; width: 49%;">
+&lt;/div></description></item><item><title>转置卷积与卷积的理解</title><link>/post/trans-conv-and-conv.html</link><pubDate>Tue, 20 Jun 2023 08:09:46 +0800</pubDate><guid>/post/trans-conv-and-conv.html</guid><description>&lt;p>转置卷积与卷积的理解，本文将介绍：&lt;/p>
 &lt;ul>
 &lt;li>转置卷积含义与矩阵形式&lt;/li>
 &lt;li>转置卷积的一种简单理解&lt;/li>
